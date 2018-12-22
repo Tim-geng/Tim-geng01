@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>百度页面</title>
+    <style>
+        /*全体样式块*/
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        a{
+            text-decoration: none;
+        }
+        /*导航栏*/
+        .nav{
+            /*width: 1500px;*/
+            width: 100%;
+            height: 40px;
+            float: left;
+        }
+        #air01{
+            width: 982px;
+            height: 40px;
+        }
+        /*中行图片*/
+        .center {
+            width: 100%;
+            height: 130px;
+            /*background: aqua;*/
+        }
+        .center-img01{
+            margin: 0 auto;
+            text-align: center;
+        }
+        /*中行搜索框*/
+        .center-inp{
+        }
+        .center-search{
+            width: 100%;
+            height: 40px;
+        }
+        .center-search-tr{
+            margin: 0;
+            text-align: center;
+        }
+        /*中行搜索框--输入框*/
+        .center-inp input{
+            margin: 0;
+            padding: 9px 7px;
+            width: 480px;
+            height: 20px;
+        }
+        /*中行搜索框--按钮*/
+        .center-btn button{
+            width: 102px;
+            height: 38px;
+        }
+        /*空白行*/
+        .air{
+            height: 90px;
+        }
+        /*尾行新闻块*/
+        .footer-new{
+            position: relative;
+            background: brown;
+            width: 100%;
+            height: 1000px;
+        }
+        .footer-new-tr{
+            position: absolute;
+            text-align: center;
+            background: aqua;
+        }
+    </style>
+</head>
+<body>
+<!--百度页面-->
+<!--导航栏-->
+<table class="nav" cellpadding="10">
+    <tr >
+        <td><a href="">天津:</a></td>
+        <td><a href=""></a>8℃</td>
+        <td>61</td>
+        <td><a href="">换肤</a></td>
+        <td><a href="">消息</a></td>
+        <td id="air01"></td>
+        <td><a href="">新闻</a></td>
+        <td><a href="">hao123</a></td>
+        <td><a href="">地图</a></td>
+        <td><a href="">视频</a></td>
+        <td><a href="">贴吧</a></td>
+        <td><a href="">学术</a></td>
+        <td><a href="">账户</a></td>
+        <td><a href="">设置</a></td>
+        <td><a href="">更多产品</a></td>
+    </tr>
+</table>
+<!--中行图片-->
+    <table class="center">
+        <tr class="center-tr">
+            <td class="center-img01"><img src="imgs/百度图片.png" height="128" width="270"/></td>
+        </tr>
+    </table>
+<!--中行搜索框-->
+    <table class="center-search">
+        <tr class="center-search-tr">
+            <td class="center-inp"><input type="text"></td>
+            <td class="center-btn"><button >百度一下</button></td>
+        </tr>
+    </table>
+    <table class="air"></table>
+<!--尾行新闻-->
+    <table class="footer-new" >
+        <tr width="600" height="1000px" class="footer-new-tr" >
+            <td>kk</td>
+            <td>kk</td>
+            <td>kk</td>
+        </tr>
+    </table>
+</body>
+</html>

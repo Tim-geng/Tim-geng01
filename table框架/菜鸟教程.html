@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>菜鸟教程</title>
+    <style>
+        /*全局样式块*/
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        /*首行样式块*/
+        .first{
+            width: 100%;
+            height:114px ;
+        }
+        /*首行logo样式块*/
+        .first-logo{
+            margin-top: 40px;
+            margin-left: 0;
+        }
+        /*首行输入框样式块*/
+        .first-inp input{
+            width: 520px;
+            height: 48px;
+            margin-right: 50px;
+            font-size: 20px;
+        }
+        /*空白行*/
+        .air{
+            width: 100%;
+            height: 40px;
+        }
+        /*导航栏*/
+        .nav{
+            width: 100%;
+            height: 40px;
+            background: darkgreen;
+        }
+        /*导航栏空白行*/
+        .air-inline-left{
+            width:160px;
+            height: 40px;
+        }
+        /*导航栏文字区*/
+        .td-air{
+            font-size: 14px;
+            color: azure;
+            padding-right: 2px;
+        }
+        /*导航栏右侧空白区*/
+        .air-inline-right{
+            width: 700px;
+            margin-left: 50px;
+        }
+        /*导航栏列表区*/
+        .main-air{
+            float: left;
+        }
+        .main{
+            width: 176px;
+            height: 580px;
+            /*background: aqua;*/
+            float: left;
+        }
+        .main tr{
+            width: 176px;
+            height: 30px;
+        }
+        .main-list-first{
+            background: lightgrey;
+            color: dimgrey;
+        }
+        /*中间空白区*/
+        .center-air{
+            float: left;
+        }
+        /*右侧学习区*/
+        .mian-right{
+            float: left;
+            background: aqua;
+            width: 980px;
+            height: 600px;
+        }
+    </style>
+</head>
+<body>
+    <!--首行logo-->
+    <table class="first">
+        <tr>
+            <td width="190px" height="114px"></td>
+            <td class="first-logo">
+                <img src="imgs/菜鸟教程.png" height="46" width="328"/>
+            </td>
+            <td width="600px" height="114px"></td>
+            <td class="first-inp">
+                <input type="text" width="500px" height="48px" placeholder="搜索">
+            </td>
+        </tr>
+    </table>
+    <!--空白行-->
+    <table class="air"></table>
+    <!--导航栏-->
+    <table class="nav">
+        <tr>
+            <td class="air-inline-left"></td>
+            <td class="td-air">首页</td>
+            <td class="td-air">菜鸟笔记</td>
+            <td class="td-air">菜鸟工具</td>
+            <td class="td-air">参考手册</td>
+            <td class="td-air">用户笔记</td>
+            <td class="td-air">测验/考试</td>
+            <td class="td-air">菜鸟建站</td>
+            <td class="td-air">本地书签</td>
+            <td class="td-air">登录</td>
+            <td class="air-inline-right"></td>
+        </tr>
+    </table>
+    <!--左侧列表-->
+    <!--左侧空白区-->
+    <table class="main-air">
+        <td class="main-air" width="160px" height="1000px"></td>
+    </table>
+    <table class="main">
+        <tr class="main-list">
+            <td class="main-list-first">全部教程</td>
+        </tr>
+        <tr><td>HTML/CSS</td></tr>
+        <tr><td>JavaScript</td></tr>
+        <tr><td>服务端</td></tr>
+        <tr><td>数据库</td></tr>
+        <tr><td>移动端</td></tr>
+        <tr><td>XML教程</td></tr>
+        <tr><td>ASP.NET</td></tr>
+        <tr><td>Web Service</td></tr>
+        <tr><td>开发工具</td></tr>
+        <tr><td>网站建设</td></tr>
+    </table>
+    <!--右侧学习栏--空白区-->
+    <table class="center-air">
+        <td class="main-air" width="5px" height="1000px"></td>
+    </table>
+    <!--右侧学习栏-->
+    <table class="mian-right">
+
+    </table>
+</body>
+</html>
